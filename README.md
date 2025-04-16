@@ -1,7 +1,5 @@
 # 3D Trajectory Estimation using ICP Algorithm
 
-![3D Trajectory Visualization](https://via.placeholder.com/800x400.png?text=3D+Trajectory+Comparison)
-
 This project implements the Iterative Closest Point (ICP) algorithm to estimate 3D trajectories from sequential LiDAR point clouds, with validation against ground truth data.
 
 ## Features

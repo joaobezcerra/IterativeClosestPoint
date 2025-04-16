@@ -4,26 +4,42 @@ This project implements the Iterative Closest Point (ICP) algorithm to estimate 
 
 ## Features
 
-- Complete ICP implementation with SVD-based rigid transformation
-- 3D trajectory reconstruction from point cloud sequences
-- Visualization of estimated vs ground truth trajectories
-- Error metric calculation (MSE)
-- Optimized with KD-trees and point cloud downsampling
+**ICP Pipeline**:
+  - Point-to-point registration
+  - SVD-based rigid transformation
+  - KD-tree accelerated nearest neighbor search
+  - 
+**Trajectory Analysis**:
+  - Sequential scan matching
+  - Transformation chaining
+  - 3D visualization with Matplotlib
+    
+**Performance**:
+  - Point cloud downsampling
+  - Convergence monitoring
+  - MSE error metrics
 
-## Requirements
+## Requirements:
 
 - Python 3.6+
 - Required packages:
   ```bash
   numpy matplotlib trimesh scipy tqdm
 
-### Docs
+## Dependencies:
 
-- Image classification
-  - VGG, ResNET
+numpy>=1.20
+matplotlib>=3.5
+trimesh>=3.9
+scipy>=1.8
+tqdm>=4.0
+
+### Docs:
+
 - [Object detection](https://viso.ai/deep-learning/object-detection/) 
-  - Two stage models (R-CNN, Fast R-CNN, Faster R-CNN)
-  - One stage models  (YOLO, SSD)
-  - [Vision Transformer (ViT)](https://viso.ai/deep-learning/vision-transformer-vit/)
-  - NMS algorithm 
-- Object Tracking
+- [Vision Transformer (ViT)](https://viso.ai/deep-learning/vision-transformer-vit/)
+
+### References:
+
+- KITTI Dataset: http://www.cvlibs.net/datasets/kitti/
+- ICP Algorithm: Besl, P.J., McKay, N.D. (1992)

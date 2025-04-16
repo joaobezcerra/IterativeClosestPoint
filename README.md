@@ -1,1 +1,1 @@
-# Owner-avatar-RDComputerVision
+# RDComputerVision

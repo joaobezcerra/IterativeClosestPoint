@@ -43,3 +43,4 @@ tqdm>=4.0
 
 - KITTI Dataset: http://www.cvlibs.net/datasets/kitti/
 - ICP Algorithm: Besl, P.J., McKay, N.D. (1992)
+- https://pcl.readthedocs.io/projects/tutorials/en/master/iterative_closest_point.html
